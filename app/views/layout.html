@@ -72,7 +72,7 @@
 {% endif %}
 
 {% block bodyEnd %}
-  <pre>Content: {{ data | toJSON }}</pre>
+  <pre>Data: {{ data | toJSON }}</pre>
   {% block scripts %}
     {% include "includes/scripts.html" %}
     {% block pageScripts %}{% endblock %}
